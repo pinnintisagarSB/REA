@@ -1,0 +1,36 @@
+.TestTyping{
+    width: 80wh;
+    height: 80vh;
+    background-color: rgb(49, 47, 47);
+    margin: 2rem 4rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.back{
+    height: 4rem;
+    width: 80wh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: 2rem;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 6rem;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.TestTyping h1{
+    font-size: 4rem;
+    color: #fff;
+    font-weight: 600;
+}
+.TestTyping h2{
+    font-size: 3rem;
+    color: yellow;
+}

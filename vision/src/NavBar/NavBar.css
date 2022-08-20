@@ -1,0 +1,39 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 12rem;
+    background-color: black;
+    padding: 2rem 4rem;
+}
+.logo{
+    font-size: 4.5rem;
+    color: white;
+    font-weight: 500;
+}
+.user{
+    background-color: #FFF;
+    display: flex;
+    border-radius: 3rem;
+    width: 15rem;
+    height: 5rem;
+    justify-content: space-between;
+    padding: 1.2rem;
+    align-items: center;
+    text-align: center;
+}
+.usr{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #000;
+    padding-right: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.transcript h1{
+    color: #FFF;
+}
+

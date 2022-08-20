@@ -1,0 +1,10 @@
+.LearnMode{
+    width: 80wh;
+    height: 80vh;
+    background-color: rgb(49, 47, 47);
+    margin: 2rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+}

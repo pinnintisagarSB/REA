@@ -1,0 +1,36 @@
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(49, 47, 47);
+    padding: 1rem;
+}
+.icn{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 0;
+    background-color: transparent;
+    border: none;
+    align-items: center;
+    text-align: center;
+}
+.ic{
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 5rem;
+}
+.in{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #fff;
+}

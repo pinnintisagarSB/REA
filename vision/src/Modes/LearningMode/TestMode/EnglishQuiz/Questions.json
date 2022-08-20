@@ -1,0 +1,140 @@
+[
+    {
+    "qid":1,
+    "Quest":"Which of the following is the correct abbreviation of COMPUTER?",
+    "option1":"Commonly Occupied Machines Used in Technical and Educational Research",
+    "option2":"Commonly Occupied Machines Used in Technical and Educational Research",
+    "option3":"Commonly Occupied Machines Used in Technical and Educational Research",
+    "option4":"Commonly Occupied Machines Used in Technical and Educational Research",
+    "answer" : 4
+    },
+    {
+    "qid":2,
+    "Quest":"Which of the following is the correct definition of Computer?",
+    "option1":"Computer is a machine or device that can be programmed to perform arithmetical or logic operation sequences automatically",
+    "option2":"Computer is a programmable electronic device that stores, retrieves, and processes the data",
+    "option3":"Computer understands only binary language which is written in the form of 0s & 1s",
+    "option4":"All of the mentioned",
+    "answer" : 4
+    },
+    {
+    "qid":3,
+    "Quest":"What is the full form of CPU?",
+    "option1":"Computer Processing Unit",
+    "option2":"Computer Principle Unit",
+    "option3":"Central Processing Unit",
+    "option4":"Control Processing Unit",
+    "answer" : 3
+    },
+    {
+    "qid":4,
+    "Quest":"Which of the following is the brain of the computer?",
+    "option1":"Central Processing Unit",
+    "option2":"Memory",
+    "option3":"Arithmetic and Logic unit",
+    "option4":"Control unit",
+    "answer" : 1
+    },
+    {
+    "qid":5,
+    "Quest":"Which of the following unit is responsible for converting the data received from the user into a computer understandable format?",
+    "option1":"Output Unit",
+    "option2":"Input Unit",
+    "option3":"Memory Unit",
+    "option4":"Arithmetic & Logic Unit",
+    "answer" : 2
+    },
+    {
+    "qid":6,
+    "Quest":"Which of the following are physical devices of a computer?",
+    "option1":"Hardware",
+    "option2":"Software",
+    "option3":"System Software",
+    "option4":"Package",
+    "answer" : 1
+    },
+    {
+    "qid":7,
+    "Quest":"What is the benefit of using computer?",
+    "option1":"Computers are very fast and can store huge amounts of data",
+    "option2":"Computers provide accurate output even when input s incorrect",
+    "option3":"Computers are designed to be inflexible",
+    "option4":"None of these",
+    "answer" : 1
+    },
+    {
+    "qid":8,
+    "Quest":"The information you put into the computer is called?",
+    "option1":"Directory",
+    "option2":"Facts",
+    "option3":"Data",
+    "option4":"Files",
+    "answer" : 3
+    },
+    {
+    "qid":9,
+    "Quest":"An electronic device that processes data and converts it into information is called?",
+    "option1":"Computer",
+    "option2":"Processor",
+    "option3":"Case",
+    "option4":"Styles",
+    "answer" : 1
+    },
+    {
+    "qid":10,
+    "Quest":"ALU Stands for",
+    "option1":"Arithmetic logic unit",
+    "option2":"Arithmetic large unit",
+    "option3":"Automatic large unit",
+    "option4":"All of these",
+    "answer" : 1
+    },
+    {
+    "qid":11,
+    "Quest":"Input, output, and processing devices grouped together represent?",
+    "option1":"Mobile device",
+    "option2":"Information processing cycle",
+    "option3":"Circuit board",
+    "option4":"Computer System",
+    "answer" : 4
+    },
+    {
+    "qid":12,
+    "Quest":"Which of these is an input device ?",
+    "option1":"Keyboard",
+    "option2":"mouse",
+    "option3":"Scanner",
+    "option4":"All of these",
+    "answer" : 4
+    },
+    {
+    "qid":13,
+    "Quest":"What is output device?",
+    "option1":"Which give the data",
+    "option2":"which take the data",
+    "option3":"both  A and B",
+    "option4":"none of these",
+    "answer" : 1
+    },
+    {
+    "qid":14,
+    "Quest":"Which is an Application software?",
+    "option1":"Paint",
+    "option2":"MS word",
+    "option3":"Typing master",
+    "option4":"All of these",
+    "answer" : 4
+    },
+    {
+    "qid":15,
+    "Quest":"Ram Stands for ______?",
+    "option1":"Random access memory",
+    "option2":"read access memory",
+    "option3":"rambus access memory ",
+    "option4":"random access module",
+    "answer" : 1
+    }
+    ]
+    
+    
+    
