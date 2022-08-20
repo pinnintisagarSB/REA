@@ -1,35 +1,59 @@
 import React, { useState } from "react";
 import "./Questions.css";
 export const Question = (d) => {
-  const [po, setPo] = useState(1);
-  const [nxt, setnxt] = useState(1);
+  let [po, setPo] = useState(0);
+  let [nxt, setnxt] = useState(0);
+  let [ch, setCh] = useState(5);
   const check = (val) => {
-    if (val === d.a && nxt < 15) {
-      setPo(po + 1);
+    if (nxt < 14 && d.a === val) {
+      setCh(val);
+      setPo(++po);
+      setnxt(++nxt);
       d.onChange([po, nxt, 2]);
-      setnxt(nxt + 1);
-    } else if (nxt < 15) {
+    } else if (nxt < 14) {
+      setnxt(++nxt);
       d.onChange([po, nxt, 2]);
-      setnxt(nxt + 1);
     } else {
-      setnxt(nxt - 1);
       d.onChange([po, nxt, 3]);
     }
+    setTimeout(() => {
+      setCh(5);
+    }, 2000);
   };
   return (
     <div className="que">
       <h1>{d.q}</h1>
       <div className="options">
-        <button className="option" onClick={() => check(1)}>
+        <button
+          className={ch === 1 ? "correct" : "option"}
+          onClick={() => {
+            check(1);
+          }}
+        >
           {d.p1}
         </button>
-        <button className="option" onClick={() => check(2)}>
+        <button
+          className={ch === 2 ? "correct" : "option"}
+          onClick={() => {
+            check(2);
+          }}
+        >
           {d.p2}
         </button>
-        <button className="option" onClick={() => check(3)}>
+        <button
+          className={ch === 3 ? "correct" : "option"}
+          onClick={() => {
+            check(3);
+          }}
+        >
           {d.p3}
         </button>
-        <button className="option" onClick={() => check(4)}>
+        <button
+          className={ch === 4 ? "correct" : "option"}
+          onClick={() => {
+            check(4);
+          }}
+        >
           {d.p4}
         </button>
       </div>

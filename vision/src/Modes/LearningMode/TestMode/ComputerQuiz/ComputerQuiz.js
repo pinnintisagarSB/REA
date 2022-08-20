@@ -7,24 +7,15 @@ export const ComputerQuiz = () => {
   const [start, setStart] = useState(1);
   const [points, setPoint] = useState(0);
   const [i, setQuestion] = useState(0);
-  const [correct, setCrt] = useState("");
   const name = "SB";
   const [minutes, setMin] = useState(0);
   const [seconds, setSec] = useState(0);
-  const [prev, setPrev] = useState(0);
   const getData = (val) => {
     setPoint(val[0]);
-    if (val[0] === prev) {
-      setCrt("");
-    } else {
-      setCrt("Correct Answer");
-    }
     setTimeout(() => {
-      setCrt("");
       setQuestion(val[1]);
       setStart(val[2]);
     }, 2000);
-    setPrev(val[0]);
   };
   useEffect(() => {
     if (start === 2) {
@@ -43,8 +34,8 @@ export const ComputerQuiz = () => {
   });
   if (start === 1) {
     return (
-      <div className="QMode">
-        <div className="st">
+      <div className="LMode">
+        <div className="dash">
           <h1>Hello {name}!</h1>
           <h2>
             This is a Computer Quiz,
@@ -71,9 +62,8 @@ export const ComputerQuiz = () => {
   } else if (start === 2) {
     return (
       <div className="QMode">
-        <div className="st1">
+        <div className="quiz">
           <h1 className="qno">Question {i + 1}</h1>
-          <h1 className="crt">{correct}</h1>
           <Question
             q={data[i].Quest}
             p1={data[i].option1}
@@ -106,7 +96,7 @@ export const ComputerQuiz = () => {
   } else if (start === 3) {
     return (
       <div className="EMode">
-        <div className="st3">
+        <div className="exit">
           <h1>Thanks for Taking the quiz {name}!</h1>
           <h2>
             You got <span className="sco"> {points} </span> points.
