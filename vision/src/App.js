@@ -14,6 +14,8 @@ import { TestMode } from "./Modes/LearningMode/TestMode/TestMode";
 import { LearnMode } from "./Modes/LearningMode/LearnMode/LearnMode";
 import { ComputerQuiz } from "./Modes/LearningMode/TestMode/ComputerQuiz/ComputerQuiz";
 import { EnglishQuiz } from "./Modes/LearningMode/TestMode/EnglishQuiz/EnglishQuiz";
+import { KeyMode } from "./Modes/KeyBoardMode/LearnTypingMode/KeyMode/KeyMode";
+import { PractiseMode } from "./Modes/KeyBoardMode/LearnTypingMode/PractiseMode/PractiseMode";
 
 function App() {
   return (
@@ -36,6 +38,8 @@ function App() {
           <Route path="/HelpMode" element={<HelpMode />} />
           <Route path="/ComputerQuiz" element={<ComputerQuiz />} />
           <Route path="/EnglishQuiz" element={<EnglishQuiz />} />
+          <Route path="/PractiseMode" element={<PractiseMode />} />
+          <Route path="/KeyMode" element={<KeyMode />} />
         </Routes>
       </div>
     </div>

@@ -38,7 +38,7 @@ export const EnglishQuiz = () => {
         <div className="dash">
           <h1>Hello {name}!</h1>
           <h2>
-            This is a Computer Quiz,
+            This is a English Quiz,
             <br /> You will be given 15 questions and some options you have to
             select the correct option.
           </h2>

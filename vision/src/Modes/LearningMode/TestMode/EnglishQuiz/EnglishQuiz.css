@@ -26,13 +26,13 @@
     display: flex;
     width: 80wh;
     height: 80vh;
-    background-color: rgb(49, 47, 47);
+    background-color: #F3FBFB;
     margin: 2rem 4rem;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    color: #fff;
+    color: #272343;
 }
 .points h1{
     color: #000;
@@ -89,21 +89,28 @@
     padding: 5rem;
     width: 60%;
     flex-direction: column;
-    background-color: #fff;
+    background-color: #BAE8E8;
     text-align: center;
-    color: #000;
+    color: #272343;
+    border-radius: 2rem;
 }
 .exit button{
     border-radius: 2rem;
+    background-color: #FFD803;
+    color: #000;
+    font-size: 2.5rem;
+    font-weight: 600;
+    border: none;
 }
 .exit h1{
     font-size: 3.5rem;
-    color: crimson;
+    color: #272343;
     margin: 2rem;
 }
 .exit h2{
     font-size: 3rem;
     font-weight: bold;
+    color: #000;
     margin: 1rem;
 }
 .s{
