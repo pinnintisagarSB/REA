@@ -4,7 +4,6 @@ import { Routes, Route } from "react-router-dom";
 import { Home } from "./Home/Home";
 import { Footer } from "./Footer/Footer";
 import { LearningMode } from "./Modes/LearningMode/LearningMode";
-import { BrowsingMode } from "./Modes/BrowsingMode/BrowsingMode";
 import { KeyBoardMode } from "./Modes/KeyBoardMode/KeyBoardMode";
 import { LearnTypingMode } from "./Modes/KeyBoardMode/LearnTypingMode/LearnTypingMode";
 import { TestTypingMode } from "./Modes/KeyBoardMode/TestTypingMode/TestTypingMode";
@@ -16,6 +15,9 @@ import { ComputerQuiz } from "./Modes/LearningMode/TestMode/ComputerQuiz/Compute
 import { EnglishQuiz } from "./Modes/LearningMode/TestMode/EnglishQuiz/EnglishQuiz";
 import { KeyMode } from "./Modes/KeyBoardMode/LearnTypingMode/KeyMode/KeyMode";
 import { PractiseMode } from "./Modes/KeyBoardMode/LearnTypingMode/PractiseMode/PractiseMode";
+import { BrowsingMode } from "./Modes/BrowsingMode/BrowsingMode";
+import { HomePage } from "./Modes/BrowsingMode/pages/HomePage";
+import { SearchPage } from "./Modes/BrowsingMode/pages/SearchPage";
 
 function App() {
   return (
@@ -28,7 +30,6 @@ function App() {
         <div className="line"></div>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/BrowsingMode" element={<BrowsingMode />} />
           <Route path="/LearningMode" element={<LearningMode />} />
           <Route path="/KeyBoardMode" element={<KeyBoardMode />} />
           <Route path="/TestTypingMode" element={<TestTypingMode />} />
@@ -40,6 +41,10 @@ function App() {
           <Route path="/EnglishQuiz" element={<EnglishQuiz />} />
           <Route path="/PractiseMode" element={<PractiseMode />} />
           <Route path="/KeyMode" element={<KeyMode />} />
+          <Route path="/BrowsingMode/*" element={<BrowsingMode />}>
+            <Route path="homepage" element={<HomePage />} />
+            <Route path="searchpage" element={<SearchPage />} />
+          </Route>
         </Routes>
       </div>
     </div>

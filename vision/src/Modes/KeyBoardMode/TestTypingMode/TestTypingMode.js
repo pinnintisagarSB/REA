@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./TestTypingMode.css";
 import { Link } from "react-router-dom";
-import ArrowBackIcon from "@mui/icons-material/ArrowBack";
-import { yellow } from "@mui/material/colors";
 export const TestTypingMode = () => {
   const [Key, setKey] = useState("");
   useEffect(() => {
@@ -37,14 +35,15 @@ export const TestTypingMode = () => {
   }
   return (
     <div className="TestTyping">
-      <div className="back" onClick={endSpeak}>
-        <Link to="/KeyBoardMode">
-          <ArrowBackIcon sx={{ fontSize: "4rem", color: yellow[500] }} />
-        </Link>
-      </div>
+      <h1>Test Typing Mode</h1>
       <div className="main">
         <h1>You Typed </h1>
         <h2>{Key}</h2>
+      </div>
+      <div className="back" onClick={endSpeak}>
+        <Link to="/KeyBoardMode" className="b">
+          <button className="sp">Back</button>
+        </Link>
       </div>
     </div>
   );

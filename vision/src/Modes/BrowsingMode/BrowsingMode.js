@@ -1,9 +1,11 @@
 import React from "react";
 import "./BrowsingMode.css";
+import { HomePage } from "./pages/HomePage";
+
 export const BrowsingMode = () => {
   return (
-    <div className="browsing">
-      <h2>BrowsingMode</h2>
+    <div className="brows">
+      <HomePage />
     </div>
   );
 };

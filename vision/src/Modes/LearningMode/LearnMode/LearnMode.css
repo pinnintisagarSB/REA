@@ -1,4 +1,4 @@
-.LearnMode{
+.learnMode{
     width: 80wh;
     height: 80vh;
     background-color: rgb(49, 47, 47);
@@ -8,3 +8,56 @@
     flex-direction: column;
     text-align: center;
 }
+.sp{
+    width: 12rem;
+    display: block;
+    text-decoration: none;
+    padding: 1rem;
+    align-items: center;
+    background-color: #FFD803;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 2rem;
+    margin: 0 2rem;
+    border-radius: 1rem;
+    border: none;
+    color: #272343;
+    }
+    .b{
+        text-decoration: none;
+      }
+    .back{
+        height: 4rem;
+        width: 80wh;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        margin: 2rem;
+    }
+    .opt{
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+    .box{
+        display: flex;
+        width: 50%;
+        height: 30%;
+        margin: 2rem 4rem;
+        background-color: #fff;
+        text-decoration: none;
+        justify-content: center;
+        border-radius: 1rem;
+    }
+    .mode{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        color: #000;
+        font-size: 4rem;
+        font-weight: 600;
+    }
+    
+    

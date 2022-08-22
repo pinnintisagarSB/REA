@@ -36,6 +36,8 @@
     font-size: 5rem;
     text-align: center;
     font-weight: 600;
+    text-shadow: 0.1rem 0rem rgb(24, 21, 21);
+    color: #fff;
 }
 .l{
     display: flex;
